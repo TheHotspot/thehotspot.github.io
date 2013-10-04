@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <!-- Title and other stuffs -->
+  <title>Tables - Metro King</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+
+
+  <!-- Stylesheets -->
+  <link href="style/bootstrap.css" rel="stylesheet">
+  <!-- Font awesome icon -->
+  <link rel="stylesheet" href="style/font-awesome.css">
+  <!-- jQuery UI -->
+  <link rel="stylesheet" href="style/jquery-ui.css">
+  <!-- Calendar -->
+  <link rel="stylesheet" href="style/fullcalendar.css">
+  <!-- prettyPhoto -->
+  <link rel="stylesheet" href="style/prettyPhoto.css">
+  <!-- Star rating -->
+  <link rel="stylesheet" href="style/rateit.css">
+  <!-- Date picker -->
+  <link rel="stylesheet" href="style/bootstrap-datetimepicker.min.css">
+  <!-- jQuery Gritter -->
+  <link rel="stylesheet" href="style/jquery.gritter.css">
+  <!-- CLEditor -->
+  <link rel="stylesheet" href="style/jquery.cleditor.css">
+  <!-- Bootstrap toggle -->
+  <link rel="stylesheet" href="style/bootstrap-toggle-buttons.css">
+  <!-- Main stylesheet -->
+  <link href="style/style.css" rel="stylesheet">
+  <!-- Widgets stylesheet -->
+  <link href="style/widgets.css" rel="stylesheet">
+  <!-- Responsive style (from Bootstrap) -->
+  <link href="style/bootstrap-responsive.css" rel="stylesheet">
+
+  <!-- HTML5 Support for IE -->
+  <!--[if lt IE 9]>
+  <script src="js/html5shim.js"></script>
+  <![endif]-->
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/favicon/favicon.png">
+</head>
+
+<body>
+
+<div class="navbar navbar-fixed-top navbar-inverse">
+  <div class="navbar-inner">
+    <div class="container">
+      <!-- Menu button for smallar screens -->
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+      </a>
+      <!-- Site name for smallar screens -->
+      <a href="index.html" class="brand">Hotspot <span class="bold">Map</span></a>
+
+      <!-- Navigation starts -->
+      <div class="nav-collapse collapse">
+
+
+
+        <!-- Links -->
+        <ul class="nav pull-right">
+          <li class="dropdown pull-right">
+            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+              <img src="img/user.jpg" alt="" class="nav-user-pic" /> Admin <b class="caret"></b>
+            </a>
+
+            <!-- Dropdown menu -->
+            <ul class="dropdown-menu">
+              <li><a href="#"><i class="icon-user"></i> Profile</a></li>
+              <li><a href="#"><i class="icon-cogs"></i> Settings</a></li>
+              <li><a href="login.html"><i class="icon-off"></i> Logout</a></li>
+            </ul>
+          </li>
+
+        </ul>
+
+        <!-- Notifications -->
+        <ul class="nav pull-right">
+
+          <!-- Comment button with number of latest comments count -->
+            <li class="dropdown dropdown-big">
+              <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+                <i class="icon-comments"></i> Chats <span   class="badge badge-info">6</span>
+              </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <!-- Heading - h5 -->
+                    <h5><i class="icon-comments"></i> Chats</h5>
+                    <!-- Use hr tag to add border -->
+                    <hr />
+                  </li>
+                  <li>
+                    <!-- List item heading h6 -->
+                    <a href="#">Hi :)</a> <span class="label label-warning pull-right">10:42</span>
+                    <div class="clearfix"></div>
+                    <hr />
+                  </li>
+                  <li>
+                    <a href="#">How are you?</a> <span class="label label-warning pull-right">20:42</span>
+                    <div class="clearfix"></div>
+                    <hr />
+                  </li>
+                  <li>
+                    <a href="#">What are you doing?</a> <span class="label label-warning pull-right">14:42</span>
+                    <div class="clearfix"></div>
+                    <hr />
+                  </li>
+                  <li>
+                    <div class="drop-foot">
+                      <a href="#">View All</a>
+                    </div>
+                  </li>
+                </ul>
+            </li>
+
+            <!-- Message button with number of latest messages count-->
+            <li class="dropdown dropdown-big">
+              <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+                <i class="icon-envelope-alt"></i> Inbox <span class="badge badge-important">6</span>
+              </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <!-- Heading - h5 -->
+                    <h5><i class="icon-envelope-alt"></i> Messages</h5>
+                    <!-- Use hr tag to add border -->
+                    <hr />
+                  </li>
+                  <li>
+                    <!-- List item heading h6 -->
+                    <a href="#">Hello how are you?</a>
+                    <!-- List item para -->
+                    <p>Quisque eu consectetur erat eget  semper...</p>
+                    <hr />
+                  </li>
+                  <li>
+                    <a href="#">Today is wonderful?</a>
+                    <p>Quisque eu consectetur erat eget  semper...</p>
+                    <hr />
+                  </li>
+                  <li>
+                    <div class="drop-foot">
+                      <a href="#">View All</a>
+                    </div>
+                  </li>
+                </ul>
+            </li>
+
+            <!-- Members button with number of latest members count -->
+            <li class="dropdown dropdown-big">
+              <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+                <i class="icon-user"></i> Users <span   class="badge badge-success">6</span>
+              </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <!-- Heading - h5 -->
+                    <h5><i class="icon-user"></i> Users</h5>
+                    <!-- Use hr tag to add border -->
+                    <hr />
+                  </li>
+                  <li>
+                    <!-- List item heading h6-->
+                    <a href="#">Ravi Kumar</a> <span class="label label-warning pull-right">Free</span>
+                    <div class="clearfix"></div>
+                    <hr />
+                  </li>
+                  <li>
+                    <a href="#">Balaji</a> <span class="label label-important pull-right">Premium</span>
+                    <div class="clearfix"></div>
+                    <hr />
+                  </li>
+                  <li>
+                    <a href="#">Kumarasamy</a> <span class="label label-warning pull-right">Free</span>
+                    <div class="clearfix"></div>
+                    <hr />
+                  </li>
+                  <li>
+                    <div class="drop-foot">
+                      <a href="#">View All</a>
+                    </div>
+                  </li>
+                </ul>
+            </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- Main content starts -->
+
+<div class="content">
+
+  	<!-- Sidebar -->
+    <div class="sidebar">
+        <div class="sidebar-dropdown"><a href="#">Navigation</a></div>
+
+        <div class="sidebar-inner">
+
+
+
+          <!-- Search form -->
+          <div class="sidebar-widget">
+            <form class="form-inline">
+              <div class="input-append row-fluid">
+                <input type="text" class="span8" placeholder="Find Hotspots" name="address" id="address">
+                <button type="submit" class="btn btn-info">Search</button>
+              </div>
+            </form>
+          </div>
+
+          <!--- Sidebar navigation -->
+          <!-- If the main navigation has sub navigation, then add the class "has_submenu" to "li" of main navigation. -->
+          <ul class="navi">
+
+            <!-- Use the class nred, ngreen, nblue, nlightblue, nviolet or norange to add background color. You need to use this in <li> tag. -->
+
+            <li class="nred"><a href="index.html"><i class="icon-desktop"></i> Dashboard</a></li>
+
+            <!-- Menu with sub menu -->
+            <li class="has_submenu nlightblue">
+              <a href="#">
+                <!-- Menu name with icon -->
+                <i class="icon-th"></i> Widgets
+                <!-- Icon for dropdown -->
+                <span class="pull-right"><i class="icon-angle-right"></i></span>
+              </a>
+
+              <ul>
+                <li><a href="widgets1.html">Widgets #1</a></li>
+                <li><a href="widgets2.html">Widgets #2</a></li>
+              </ul>
+            </li>
+
+            <li class="ngreen"><a href="charts.html"><i class="icon-bar-chart"></i> Charts</a></li>
+
+            <li class="norange"><a href="ui.html"><i class="icon-sitemap"></i> UI Elements</a></li>
+
+            <li class="has_submenu nviolet">
+              <a href="#">
+                <i class="icon-file-alt"></i> Pages #1
+                <span class="pull-right"><i class="icon-angle-right"></i></span>
+              </a>
+
+              <ul>
+                <li><a href="calendar.html">Calendar</a></li>
+                <li><a href="post.html">Make Post</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="statement.html">Statement</a></li>
+                <li><a href="error-log.html">Error Log</a></li>
+                <li><a href="support.html">Support</a></li>
+              </ul>
+            </li>
+
+            <li class="has_submenu nblue">
+              <a href="#">
+                <i class="icon-file-alt"></i> Pages #2
+                <span class="pull-right"><i class="icon-angle-right"></i></span>
+              </a>
+
+              <ul>
+                <li><a href="error.html">Error</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="grid.html">Grid</a></li>
+                <li><a href="invoice.html">Invoice</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="profile.html">Profile</a></li>
+              </ul>
+            </li>
+
+            <li class="nred"><a href="forms.html"><i class="icon-list"></i> Forms</a></li>
+
+            <li class="nlightblue current"><a href="tables.html"><i class="icon-table"></i> Hotspots</a></li>
+
+          </ul>
+
+
+
+        </div>
+
+    </div>
+
+    <!-- Sidebar ends -->
+
+  	<!-- Main bar -->
+  	<div class="mainbar">
+
+	    <!-- Page heading -->
+	    <div class="page-head">
+        <!-- Page heading -->
+	      <h2 class="pull-left">Hotspots
+          <!-- page meta -->
+          <span class="page-meta">Search for and find more info about your favorite hot spots.</span>
+        </h2>
+
+
+        <!-- Breadcrumb -->
+        <div class="bread-crumb pull-right">
+          <a href="index.html"><i class="icon-home"></i> Home</a>
+          <!-- Divider -->
+          <span class="divider">/</span>
+          <a href="#" class="bread-current">Hotspots</a>
+        </div>
+
+        <div class="clearfix"></div>
+
+	    </div>
+	    <!-- Page heading ends -->
+
+
+	    <!-- Matter -->
+
+	    <div class="matter">
+        <div class="container-fluid">
+
+          <div id="hotspotInfo" style="display:none; clear:both;border:1px solid #DFDFDF;background-color:#F5F5F5;padding:10px;margin:10px;">
+
+           <div style="display:inline-block;text-align:center;background-color:#F1F1F1;float:right;padding:0px 7px;cursor:pointer;color:#DADADA;font-weight:bold;" onclick="$('#hotspotInfo').slideUp()">X</div>
+          <h3><a href="#" id="hotspotName"></a></h3>
+
+            <ul style="float:right;background-color:#DDD;padding:10px;list-style-type:none;margin-left:10px;">
+                <li><strong>Phone:</strong> <span id="hotspotPhone"></span></li>
+                <li><strong>Website:</strong> <span id="hotspotWebsite"></span></li>
+                <li><strong>Categories:</strong> <span id="hotspotCategories"></span></li>
+              </ul>
+
+            <p id="hotspotDescription"></p>
+            <div style="clear:both;"></div>
+          </div>
+          <div class="span-16" style="margin-bottom:10px;">
+              Find hotspots: <input type="text" placeholder="Enter a city & state" name="address" id="address" class="text">
+              <select name="maxResults" id="maxResults">
+                  <option value="10">10 results</option>
+                  <option value="25">25 results</option>
+                  <option value="75">75 results</option>
+                  <option value="150" selected>150 results</option>
+                  <option value="1000">Unlimited</option>
+              </select>
+              <a href="" onclick="searchByAddress();return false;">Go for it!</a>
+          </div>
+            <div id="map" class="span-16" style="height:400px;margin-bottom:20px;"></div>
+
+        </div>
+		  </div>
+
+		<!-- Matter ends -->
+
+    </div>
+
+   <!-- Mainbar ends -->
+   <div class="clearfix"></div>
+
+</div>
+<!-- Content ends -->
+
+
+<!-- Scroll to top -->
+<span class="totop"><a href="#"><i class="icon-chevron-up"></i></a></span>
+
+<!-- JS -->
+<script src="js/jquery.js"></script> <!-- jQuery -->
+<script src="js/bootstrap.js"></script> <!-- Bootstrap -->
+<script src="js/jquery-ui-1.10.2.custom.min.js"></script> <!-- jQuery UI -->
+<script src="js/fullcalendar.min.js"></script> <!-- Full Google Calendar - Calendar -->
+<script src="js/jquery.rateit.min.js"></script> <!-- RateIt - Star rating -->
+<script src="js/jquery.prettyPhoto.js"></script> <!-- prettyPhoto -->
+
+<!-- jQuery Flot -->
+<script src="js/excanvas.min.js"></script>
+<script src="js/jquery.flot.js"></script>
+<script src="js/jquery.flot.resize.js"></script>
+<script src="js/jquery.flot.pie.js"></script>
+<script src="js/jquery.flot.stack.js"></script>
+
+<script src="js/jquery.gritter.min.js"></script> <!-- jQuery Gritter -->
+<script src="js/sparklines.js"></script> <!-- Sparklines -->
+<script src="js/jquery.cleditor.min.js"></script> <!-- CLEditor -->
+<script src="js/bootstrap-datetimepicker.min.js"></script> <!-- Date picker -->
+<script src="js/jquery.toggle.buttons.js"></script> <!-- Bootstrap Toggle -->
+<script src="js/filter.js"></script> <!-- Filter for support page -->
+<script src="js/custom.js"></script> <!-- Custom codes -->
+<script src="js/charts.js"></script> <!-- Custom chart codes -->
+
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript">
+    function getUserLocation() {
+      var lat = 0;
+      var lng = 0;
+      return lat,lng;
+    }
+
+    function fetchHotspots(lat,lng,range) {
+        /*
+        API URL: /api/search
+          Required Inputs:
+            "lat"       - Latitude of current location
+            "lng"       - Longitude of current location
+            "distance"  - Maximum radial distance
+          Optional Inputs:
+            "limit"     - Maximum number of results (default=10)
+        */
+        $.ajax({
+          url: 'http://nicksweeting.com/api/search',
+          async: true,
+          cache: false,
+          type: "GET",
+          dataType: "json",
+          data: {
+            'lat': lat,
+            'lng': lng,
+            'distance':range
+          },
+          success: function(response) {
+            if(response.status == "SUCCESS") {
+              return response.data;
+            }
+          },
+          error: function(response) {
+              console.log(response);
+          }
+        });
+    }
+
+    function showHotspotData(hotspot) {
+    if(!$("#hotspotInfo").is(":visible")) {
+      $("#hotspotInfo").slideDown();
+    }
+    $("#hotspotName").html(hotspot.name);
+    $("#hotspotName").attr("href", "/h/" + hotspot.hotspot_id);
+    $("#hotspotPhone").html(hotspot.phone_number);
+    $("#hotspotWebsite").html(hotspot.website);
+    $("#hotspotCategories").html(hotspot.categories);
+    $("#hotspotDescription").html(hotspot.description);
+    }
+
+    function loadMap(lat, lng, limit) {
+        var mapDiv = document.getElementById('map');
+        //var latlng = new google.maps.LatLng(44.849167, -123.23);
+        var options = {
+              center: new google.maps.LatLng(lat, lng),
+              zoom: 12,
+              mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+
+        window.map = new google.maps.Map(mapDiv, options);
+
+        loadHotspotPoints(lat, lng, limit);
+    }
+
+    function loadHotspotPoints(lat, lng, limit) {
+    $.ajax({
+            async: false,
+            cache: false,
+            type: "GET",
+      url: '/api/search?lat=' + lat + "&lng=" + lng + "&distance=30&limit=" + limit,
+      dataType: "json",
+      error: function(e){
+          console.log(e);
+      },
+      success: function(response) {
+          if(response.status == "SUCCESS") {
+              for(i=0; i<response.results.length; i++) {
+                  hotspot = response.results[i];
+                        // Add the marker to the map
+                        marker = new google.maps.Marker({
+                                position: new google.maps.LatLng(parseFloat(hotspot.latitude), parseFloat(hotspot.longitude)),
+                                id: hotspot.hotspot_id,
+                                title: hotspot.name,
+                                map: window.map
+                            });
+
+                        (function (m) {
+                          google.maps.event.addListener(m, 'click', function() {
+                            window.map.setCenter(m.getPosition());
+                            loadHotspotData(m.id);
+                          });
+                        }) (marker);
+              }
+          }
+      }
+    });
+    }
+
+    function searchByAddress() {
+        var geocoder = new google.maps.Geocoder();
+        geocoder.geocode( { 'address': $("#address").val() },
+            function(data, status){
+                if(status == "OK") {
+                    loadMap(data[0].geometry.location.lat(), data[0].geometry.location.lng(), $("#maxResults").val())
+                } else {
+                    console.log("Something's wrong. Status: " + status);
+                }
+            });
+    }
+
+    $(document).ready(function() {
+        loadGlobalScanCount();
+        loadMap(44.849167, -123.23, $("#maxResults").val());
+        setInterval("loadGlobalScanCount()", 5000);
+    });
+    </script>
+
+</body>
+</html>
