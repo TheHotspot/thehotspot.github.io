@@ -70,7 +70,7 @@
         <ul class="nav pull-right">
           <li class="dropdown pull-right">
             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-              <img src="img/user.jpg" alt="" class="nav-user-pic" /> Admin <b class="caret"></b>
+              <img src="img/user.jpg" alt="" class="nav-user-pic" /> Nick Sweeting <b class="caret"></b>
             </a>
 
             <!-- Dropdown menu -->
@@ -80,118 +80,6 @@
               <li><a href="login.html"><i class="icon-off"></i> Logout</a></li>
             </ul>
           </li>
-
-        </ul>
-
-        <!-- Notifications -->
-        <ul class="nav pull-right">
-
-          <!-- Comment button with number of latest comments count -->
-            <li class="dropdown dropdown-big">
-              <a class="dropdown-toggle" href="#" data-toggle="dropdown">
-                <i class="icon-comments"></i> Chats <span   class="badge badge-info">6</span>
-              </a>
-
-                <ul class="dropdown-menu">
-                  <li>
-                    <!-- Heading - h5 -->
-                    <h5><i class="icon-comments"></i> Chats</h5>
-                    <!-- Use hr tag to add border -->
-                    <hr />
-                  </li>
-                  <li>
-                    <!-- List item heading h6 -->
-                    <a href="#">Hi :)</a> <span class="label label-warning pull-right">10:42</span>
-                    <div class="clearfix"></div>
-                    <hr />
-                  </li>
-                  <li>
-                    <a href="#">How are you?</a> <span class="label label-warning pull-right">20:42</span>
-                    <div class="clearfix"></div>
-                    <hr />
-                  </li>
-                  <li>
-                    <a href="#">What are you doing?</a> <span class="label label-warning pull-right">14:42</span>
-                    <div class="clearfix"></div>
-                    <hr />
-                  </li>
-                  <li>
-                    <div class="drop-foot">
-                      <a href="#">View All</a>
-                    </div>
-                  </li>
-                </ul>
-            </li>
-
-            <!-- Message button with number of latest messages count-->
-            <li class="dropdown dropdown-big">
-              <a class="dropdown-toggle" href="#" data-toggle="dropdown">
-                <i class="icon-envelope-alt"></i> Inbox <span class="badge badge-important">6</span>
-              </a>
-
-                <ul class="dropdown-menu">
-                  <li>
-                    <!-- Heading - h5 -->
-                    <h5><i class="icon-envelope-alt"></i> Messages</h5>
-                    <!-- Use hr tag to add border -->
-                    <hr />
-                  </li>
-                  <li>
-                    <!-- List item heading h6 -->
-                    <a href="#">Hello how are you?</a>
-                    <!-- List item para -->
-                    <p>Quisque eu consectetur erat eget  semper...</p>
-                    <hr />
-                  </li>
-                  <li>
-                    <a href="#">Today is wonderful?</a>
-                    <p>Quisque eu consectetur erat eget  semper...</p>
-                    <hr />
-                  </li>
-                  <li>
-                    <div class="drop-foot">
-                      <a href="#">View All</a>
-                    </div>
-                  </li>
-                </ul>
-            </li>
-
-            <!-- Members button with number of latest members count -->
-            <li class="dropdown dropdown-big">
-              <a class="dropdown-toggle" href="#" data-toggle="dropdown">
-                <i class="icon-user"></i> Users <span   class="badge badge-success">6</span>
-              </a>
-
-                <ul class="dropdown-menu">
-                  <li>
-                    <!-- Heading - h5 -->
-                    <h5><i class="icon-user"></i> Users</h5>
-                    <!-- Use hr tag to add border -->
-                    <hr />
-                  </li>
-                  <li>
-                    <!-- List item heading h6-->
-                    <a href="#">Ravi Kumar</a> <span class="label label-warning pull-right">Free</span>
-                    <div class="clearfix"></div>
-                    <hr />
-                  </li>
-                  <li>
-                    <a href="#">Balaji</a> <span class="label label-important pull-right">Premium</span>
-                    <div class="clearfix"></div>
-                    <hr />
-                  </li>
-                  <li>
-                    <a href="#">Kumarasamy</a> <span class="label label-warning pull-right">Free</span>
-                    <div class="clearfix"></div>
-                    <hr />
-                  </li>
-                  <li>
-                    <div class="drop-foot">
-                      <a href="#">View All</a>
-                    </div>
-                  </li>
-                </ul>
-            </li>
 
         </ul>
 
@@ -212,24 +100,14 @@
 
         <div class="sidebar-inner">
 
-
-
-          <!-- Search form -->
-          <div class="sidebar-widget">
-            <form class="form-inline">
-              <div class="input-append row-fluid">
-                <input type="text" class="span8" placeholder="Find Hotspots" name="address" id="address">
-                <button type="submit" class="btn btn-info">Search</button>
-              </div>
-            </form>
-          </div>
-
           <!--- Sidebar navigation -->
           <!-- If the main navigation has sub navigation, then add the class "has_submenu" to "li" of main navigation. -->
           <ul class="navi">
 
             <!-- Use the class nred, ngreen, nblue, nlightblue, nviolet or norange to add background color. You need to use this in <li> tag. -->
 
+
+            <li class="nlightblue current"><a href="tables.html"><i class="icon-table"></i> Hotspots</a></li>
             <li class="nred"><a href="index.html"><i class="icon-desktop"></i> Dashboard</a></li>
 
             <!-- Menu with sub menu -->
@@ -242,8 +120,8 @@
               </a>
 
               <ul>
-                <li><a href="widgets1.html">Widgets #1</a></li>
-                <li><a href="widgets2.html">Widgets #2</a></li>
+                <li class="submenu"><a href="widgets1.html">Widgets #1</a></li>
+                <li class="submenu"><a href="widgets2.html">Widgets #2</a></li>
               </ul>
             </li>
 
@@ -286,8 +164,6 @@
 
             <li class="nred"><a href="forms.html"><i class="icon-list"></i> Forms</a></li>
 
-            <li class="nlightblue current"><a href="tables.html"><i class="icon-table"></i> Hotspots</a></li>
-
           </ul>
 
 
@@ -301,61 +177,34 @@
   	<!-- Main bar -->
   	<div class="mainbar">
 
-	    <!-- Page heading -->
-	    <div class="page-head">
-        <!-- Page heading -->
-	      <h2 class="pull-left">Hotspots
-          <!-- page meta -->
-          <span class="page-meta">Search for and find more info about your favorite hot spots.</span>
-        </h2>
-
-
-        <!-- Breadcrumb -->
-        <div class="bread-crumb pull-right">
-          <a href="index.html"><i class="icon-home"></i> Home</a>
-          <!-- Divider -->
-          <span class="divider">/</span>
-          <a href="#" class="bread-current">Hotspots</a>
-        </div>
-
-        <div class="clearfix"></div>
-
-	    </div>
-	    <!-- Page heading ends -->
-
 
 	    <!-- Matter -->
 
 	    <div class="matter">
         <div class="container-fluid">
 
-          <div id="hotspotInfo" style="display:none; clear:both;border:1px solid #DFDFDF;background-color:#F5F5F5;padding:10px;margin:10px;">
+        <div id="map" style="position:absolute; z-index:0;height:500px;width:105%;padding:0px; margin:-20px; background-color:grey;"></div>
+        <div style="z-index:100; position:absolute;padding: 4px; background-color: rgba(1,1,1,.3);color:#000; width:290px; height:30px;">
+              <input type="text" placeholder="Enter a city & state" name="address" id="address" class="text">
+              <select name="maxResults" id="maxResults" style="display:none;">
+                  <option value="10">10 results</option>
+                  <option value="25">25 results</option>
+                  <option value="75">75 results</option>
+                  <option value="150">150 results</option>
+                  <option value="1000" selected>Unlimited</option>
+              </select>
+              <a href="" class="blightblue btn btn-info" style="margin-top:-9px;" onclick="searchByAddress();return false;">Search</a>
+          </div>
 
-           <div style="display:inline-block;text-align:center;background-color:#F1F1F1;float:right;padding:0px 7px;cursor:pointer;color:#DADADA;font-weight:bold;" onclick="$('#hotspotInfo').slideUp()">X</div>
-          <h3><a href="#" id="hotspotName"></a></h3>
-
-            <ul style="float:right;background-color:#DDD;padding:10px;list-style-type:none;margin-left:10px;">
+          <div id="hotspotInfo" style="clear:both; display:block;height:300px; width:100%; margin-top:500px;background-color:#ddd;">
+            <h3><a href="#" id="hotspotName"></a></h3>
+            <ul style="float:left;background-color:#DDD;padding:10px;list-style-type:none;margin-left:10px; margin-top:5px; width:500px; height: 300px;"
                 <li><strong>Phone:</strong> <span id="hotspotPhone"></span></li>
                 <li><strong>Website:</strong> <span id="hotspotWebsite"></span></li>
                 <li><strong>Categories:</strong> <span id="hotspotCategories"></span></li>
               </ul>
-
             <p id="hotspotDescription"></p>
-            <div style="clear:both;"></div>
           </div>
-          <div class="span-16" style="margin-bottom:10px;">
-              Find hotspots: <input type="text" placeholder="Enter a city & state" name="address" id="address" class="text">
-              <select name="maxResults" id="maxResults">
-                  <option value="10">10 results</option>
-                  <option value="25">25 results</option>
-                  <option value="75">75 results</option>
-                  <option value="150" selected>150 results</option>
-                  <option value="1000">Unlimited</option>
-              </select>
-              <a href="" onclick="searchByAddress();return false;">Go for it!</a>
-          </div>
-            <div id="map" class="span-16" style="height:400px;margin-bottom:20px;"></div>
-
         </div>
 		  </div>
 
